@@ -1,4 +1,4 @@
-var gcloud = require('gcloud');
+var storage = require('@google-cloud/storage');
 var crypto = require( 'crypto' );
 var fs = require('fs')
 
@@ -39,7 +39,7 @@ function GCStorage (opts) {
 		throw new Error( 'You have to specify credentials key file for Google Cloud Storage to work.' );
 	}
 
-	this.gcobj = gcloud.storage({
+	this.gcobj = storage({
 		projectId: opts.projectId,
 		keyFilename: opts.keyFilename
 	});

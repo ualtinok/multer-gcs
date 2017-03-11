@@ -5,21 +5,21 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jahmed76/multer-gcs.git"
+    "url": "git+https://github.com/ualtinok/multer-gcs.git"
   },
   "keywords": [
     "multer",
     "gcs",
     "google"
   ],
-  "author": "jahmed76",
+  "author": "ualtinok",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jahmed76/multer-gcs/issues"
+    "url": "https://github.com/ualtinok/multer-gcs/issues"
   },
-  "homepage": "https://github.com/jahmed76/multer-gcs#readme",
+  "homepage": "https://github.com/ualtinok/multer-gcs#readme",
   "dependencies": {
-    "gcloud": "^0.36.0"
+    "@google-cloud/storage": "^0.7.0",
   },
   "devDependencies": {}
 }
