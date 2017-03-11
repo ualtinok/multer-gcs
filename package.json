@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/ualtinok/multer-gcs#readme",
   "dependencies": {
-    "@google-cloud/storage": "^0.7.0",
+    "@google-cloud/storage": "^0.7.0"
   },
   "devDependencies": {}
 }
